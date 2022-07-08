@@ -19,7 +19,7 @@ function DownloadCanvasAsImage(){
     canvas.toBlob(function(blob) {
       let url = URL.createObjectURL(blob);
       downloadLink.setAttribute('href', url);
-      //downloadLink.click();
+      downloadLink.click();
     });
 }
 
