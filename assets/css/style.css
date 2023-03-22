@@ -20,6 +20,17 @@ body {
 }
 
 
+@font-face {
+    font-family: "Brando";
+    src: url(../fonts/Brando.otf);
+}
+
+@font-face {
+    font-family: "BrandoBold";
+    src: url(../fonts/Brando-Bold.otf);
+}
+
+
 #myCanvas{
     font-family: "GESSTwoLight";
     max-height: 800px;
