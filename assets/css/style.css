@@ -31,8 +31,13 @@ body {
 }
 
 
+@font-face {
+    font-family: "DINN";
+    src: url(../fonts/DINN.ttf);
+}
+
 #myCanvas{
-    font-family: "GESSTwoLight";
+    font-family: "DINN";
     max-height: 800px;
 }
 
@@ -49,5 +54,5 @@ canvas {
 }
 
 body{
-    font-family: "GESSTwoLight";
+    font-family: "DINN";
 }
